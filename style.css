@@ -1,0 +1,504 @@
+@font-face {
+font-family: ‘Kelvetica Nobis’;
+src: url(‘misc/Kelvetica Nobis.otf’);
+font-weight: normal;
+font-style: normal;
+
+}
+*
+{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style-type: none;
+	font-family: Kelvetica Nobis;
+}
+iframe
+{
+	width: 257px; 
+	height: 183px;
+	border: 0px;
+	margin-left: 10px;
+}
+
+
+#blockPage
+{
+	width: 955px;
+	height: 1182px;
+	margin: auto;
+}
+#header
+{
+	color: white;
+	height: 123px;
+	background: black;
+}
+#header div
+{
+	margin-left: 820px;
+	margin-top: 60px;
+}
+#header p
+{
+	text-transform: uppercase;
+	margin-left: 20px;
+	padding-top: 15px;
+}
+#header a
+{
+	color: white;
+	font-size: 11px;
+}
+#header a:hover
+{
+	border-bottom: 1px solid white;
+}
+#nav
+{
+	background: green;
+	width: 955px;
+	height: 380px;
+	text-transform: uppercase;
+}
+#nav h1
+{
+	background: green;
+	width: 280px;
+}
+#nav li
+{
+	height: 37px;
+	padding-top: 15px;
+	padding-left: 45px;
+	background: green;
+	width: 235px;
+}
+#nav h1
+{
+	font-size: 18px;
+	width: 265px;
+	height: 48px;
+	color: white;
+	text-transform: uppercase;
+	padding-left: 15px;
+	padding-top: 20px;
+}
+
+#nav li:hover
+{
+	/*background: black;*/
+	color: white;
+	/*list-style-image: url(misc/fleche.jpg);
+	list-style-position: inside;*/
+	background: url(misc/fleche.jpg) no-repeat;
+	background-color: #000;
+}
+
+#nav div
+{
+	float: left;
+	/*border: 1px solid black;*/
+}
+#chambre
+{
+	width: 640px;
+	height: 380px;
+}
+#infos
+{
+	float: left;
+	width: 280px;
+	height: 635px;
+}
+#infos .titlepart1, #infos a
+{
+	text-transform: uppercase;
+}
+#infos .titlepart1
+{
+	font-weight: bold;
+}
+#infos h2 span
+{
+	text-transform: 
+}
+#localisation
+{
+	width: 280px;
+	height: 280px;
+}
+#localisation h2
+{
+	margin-left: 10px;
+	font-size: 16px;
+	border-bottom: 1px solid black;
+	width: 255px;
+	margin-bottom: 10px;
+}
+#localisation a
+{
+	text-transform: uppercase;
+
+}
+
+#situation
+{
+	width: 640px;
+	height: 245px;
+	background: #cccccc;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding-top: 10px;
+}
+#situation h2
+{
+	font-size: 15px;
+}
+h2
+{
+	font-size: 15px;
+}
+#situation p
+{
+	font-size: 10.5px;
+	margin-top: 10px;
+}
+#situation p span
+{
+	margin: 10px;
+}
+#situation img
+{
+	margin-left: 12px;
+	margin-top: 5px;
+	float: left;
+}
+#situation span
+{
+	color: green;
+}
+#situation a
+{
+	text-transform: uppercase;
+}
+#situation h2
+{
+	margin-top: 15px;
+	width: 270px;
+	height: 21px;
+	border-bottom: 1px solid black;
+}
+#situ
+{
+	width: 275px;
+	height: 240px;
+	margin-left: 355px;
+}
+#situ div
+{
+	width: 90px;
+	height: 20px;
+	margin-left: 185px;
+	margin-top: 10px;
+	background: green;
+	padding-top: 5px;
+}
+#situ div:hover
+{
+	background: black;
+}
+#situ a
+{
+	margin-left: 10px;
+	color: white;
+}
+#decouvertes
+{
+	width: 315px;
+	height: 333px;
+	float: left;
+	background: #cccccc;
+}
+#decouvertes p
+{
+	font-size: 10px;
+	width: 175px;
+	margin-left: 120px;
+}
+#decouvertes span
+{
+	text-transform: uppercase;
+}
+#decouvertes a
+{
+	text-transform: uppercase;
+}
+#decouvertes h2
+{
+	margin-top: 10px;
+	width: 295px;
+	margin-left: 10px;
+}
+#imgdeluxe
+{
+	float: left;
+	margin-top: 15px;
+}
+#imgjunior
+{
+	float: left;
+	margin-top: 15px;
+}
+#decouvertes h3
+{
+	font-size: 10px;
+	margin-left: 120px;
+	width: 165px;
+	height: 15px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+#decouvertes hr
+{
+	width: 295px;
+	margin-bottom: 20px;
+}
+#grande
+{
+	border-top: 2px solid #808080;
+	width: 295px;
+	height: 110px;
+	margin-left: 10px;
+}
+#grande a
+{
+	margin-left: 10px;
+	color: green;
+}
+#grande p
+{
+	margin-bottom: 10px;
+}
+#junior a
+{
+	margin-left: 10px;
+	color: green;
+}
+#junior
+{
+	border-top: 2px solid #808080;
+	border-bottom: 2px solid #808080;
+	width: 295px;
+	height: 110px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+#offres
+{
+	width: 90px;
+	height: 25px;
+	background: green;
+	margin-left: 215px;
+}
+#offres:hover
+{
+	background: black;
+}
+#offres a 
+{
+	color: white;
+	margin-left: 10px;
+}
+#speciales
+{
+	width: 315px;
+	height: 333px;
+	background: green;
+	margin-left: 325px;
+}
+#speciales div
+{
+	font-size: 15px;
+	/*border-bottom: 1px solid black; */
+}
+#speciales h2
+{
+	padding-top: 10px;
+	width: 295px;
+	margin-left: 10px;
+	border-bottom: 1px solid black;
+	margin-bottom: 10px;
+}
+#speciales ul
+{
+	border-bottom: 1px solid #696969;
+	width: 295px;
+	margin-left: 10px;
+}
+#speciales li
+{
+	border-top: 2px solid #696969;
+	height: 25px;
+	width: 295px;
+}
+#speciales li:hover
+{
+	background: #808080;
+}
+#speciales a 
+{
+	color: white;
+}
+#speciales a:hover
+{
+	color: green;
+}
+#part1
+{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+#part2
+{
+	color: white;
+}
+.double
+{
+	text-transform: uppercase;
+	margin-right: 110px;
+}
+.prix
+{
+	margin-left: 48px;
+}
+#descriptif
+{
+	width: 280px;
+	height: 334px;
+}
+#descriptif p
+{
+	font-size: 11px;
+}
+#descriptif #savoir
+{
+	width: 90px;
+	height: 25px;
+	background: green;
+	margin-bottom: 14px;
+}
+#descriptif #savoir:hover
+{
+	background: black;
+}
+#descriptif a
+{
+	margin-left: 10px;
+	color: white;
+}
+#descriptif p
+{
+	width: 245px;
+	margin-left: 20px;
+}
+#triangle1
+{
+	margin-top: 10px;
+}
+#triangle2
+{
+
+}
+#descriptif p span
+{
+	color: green;
+}
+#descriptif h2
+{
+	margin-top: 20px;
+	margin-left: 10px;
+	font-size: 16px;
+	border-bottom: 1px solid black;
+	width: 255px;
+
+}
+#descriptif #savoir
+{
+	margin-left: 175px;
+	margin-top: 15px;
+}
+#acces
+{
+	width: 120px;
+	height: 25px;
+	background: green;
+	margin-left: 145px;
+	margin-top: 17px;
+}
+#acces:hover
+{
+	background: black;
+}
+#acces a
+{
+	color: white;
+	margin-left: 15px;
+}
+#p
+{
+	margin-top: -16px;
+}
+#p2
+{
+	margin-top: -15px;
+}
+#infos .titlepart2
+{
+	color: green;
+}
+
+#section
+{
+	width: 675px;
+	height: 635px;
+	margin-left: 280px;
+	margin-top: -2px;
+}
+
+#footer
+{
+	border: 1px solid black;
+	height: 45px;
+	color: #808080;
+	background: black;
+	text-transform: uppercase;
+	font-size: 10px;
+}
+#footer a
+{
+	color: #808080;
+}
+#footer a:hover
+{
+	color: white;
+}
+#footer div
+{
+	width: 580px;
+	margin: auto;
+	margin-top: 15px;
+}
+#footer span:hover
+{
+	color: white;
+}
+hr
+{
+	width: 257px;
+	margin-left: 10px;
+}
+a
+{
+	font-size: 10px;
+}
